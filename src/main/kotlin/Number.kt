@@ -29,4 +29,8 @@ fun main() {
 
     var balance3Int: Int = balance2.toInt()
     println(balance3Int)
+
+    val doublenum2: Int = doubblnum.toInt()
+    println(doublenum2)
+
 }
