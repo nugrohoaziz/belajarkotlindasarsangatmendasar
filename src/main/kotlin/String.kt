@@ -22,4 +22,8 @@ siapa saya?
         >mars
         >lintang 45
     """.trimMargin(">")
+
+    //menggabungkan dua string
+    var fullname: String = namaawal + " " + namatengah
+    println(fullname)
 }
