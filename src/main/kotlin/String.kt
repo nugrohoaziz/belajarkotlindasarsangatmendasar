@@ -1,6 +1,6 @@
 fun main() {
-    var namaawal: String = "aziz"
-    var namatengah: String = "nugroho"
+    var namaAwal: String = "aziz"
+    var namaTengah: String = "nugroho"
     var bio: String = """ 
 saya adalah aziz
 aziz adalaha saya
@@ -24,6 +24,14 @@ siapa saya?
     """.trimMargin(">")
 
     //menggabungkan dua string
-    var fullname: String = namaawal + " " + namatengah
-    println(fullname)
+    var fullName: String = namaAwal + " " + namaTengah
+    println(fullName)
+
+    //String tamplate
+    var fullName2: String = "$namaAwal $namaTengah"
+    println(fullName2)
+
+    //String buat mengetahui banyak huruf dari string di fullName2
+    var banyakHuruf: String = "nama : $fullName2 ada ${fullName2.length} huruf"
+    println(banyakHuruf)
 }
