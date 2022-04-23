@@ -15,4 +15,12 @@ fun main() {
     umurAnggota.set(0, 30)
     //index 0 at array umurAnggota is 10 change to 30
     println(umurAnggota.get(0))
+
+    val namaMobil: Array<String?> = arrayOfNulls(3)
+    namaMobil.set(0, "honda")
+    namaMobil.set(1, "tesla")
+    namaMobil.set(2, "Roll-roys")
+
+    println(namaMobil.get(0))
+
 }
