@@ -1,3 +1,6 @@
+const val APLICATION = "belajar kotlin dasar"
+const val VERSION = "00.1.1.1."
+
 fun main() {
     //imutable
     val namaAwal: String = "Aziz"
@@ -10,4 +13,6 @@ fun main() {
     //nullable
     val firstName: String? = null
     println(firstName?.length)
+
+    println("nama aplikasi $APLICATION versi ke $VERSION")
 }
