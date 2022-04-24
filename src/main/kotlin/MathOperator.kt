@@ -28,4 +28,17 @@ fun main() {
     val phone3 = 300
     total2 += phone3
     println(total2)
+
+    //unery operator
+    total++
+    total++
+    println(total)
+    total2--
+    total2--
+    total2--
+    println(total2)
+
+    //unery operator "not"
+    val sehat = true
+    println(!sehat)
 }
