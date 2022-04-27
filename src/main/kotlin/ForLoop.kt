@@ -4,5 +4,10 @@ fun main() {
         println(mahasiswa)
     }
 
+    //for loop range
+    var putran = 0
+    for(hulahup in 1..8){
+        println("$hulahup putaran ke ${putran++}")
+    }
 
 }
