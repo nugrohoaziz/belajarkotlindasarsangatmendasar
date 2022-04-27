@@ -12,4 +12,12 @@ fun main() {
         in kecepatanJalan -> println("kecepatan stabil")
         !in kecepatanJalan -> println("kecepan tidak stabil")
     }
+
+    val dadu = 1..6
+    val acakDadu = dadu.random()
+    val luckyNumber = arrayOf(2,4,6)
+    when(acakDadu){
+        in luckyNumber -> println("you win you've got $acakDadu")
+        !in luckyNumber -> println("you lose $acakDadu")
+    }
 }
