@@ -10,4 +10,12 @@ fun main() {
         println("$hulahup putaran ke ${putran++}")
     }
 
+    //for loop campuran
+    val ukuranArray = namaMahasiswa.size -1
+    for (i in 0..ukuranArray){
+        println("index $i = ${namaMahasiswa.get(i)}")
+    }
+
+
+
 }
