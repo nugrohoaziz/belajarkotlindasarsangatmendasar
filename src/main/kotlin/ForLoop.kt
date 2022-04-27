@@ -16,6 +16,26 @@ fun main() {
         println("index $i = ${namaMahasiswa.get(i)}")
     }
 
-
-
+    val namaSholat = "fajar"
+    val isiRakaat = arrayOf(
+        "Takbiratul Ihram",
+        "Membaca Doa Iftitah",
+        "Membaca Surat Al-Fatihah",
+        "Membaca Surat Pendek",
+        "Rukuk",
+        "itidal",
+        "sujud",
+        "Duduk di Antara Dua Sujud")
+    when(namaSholat){
+        "fajar" -> {
+            for (run in 1..2){
+                println("${isiRakaat}")
+            }
+        }
+        "zuhur" -> {
+            for (run in 1..4){
+                println(isiRakaat)
+            }
+        }
+    }
 }
