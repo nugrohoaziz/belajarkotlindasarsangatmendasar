@@ -8,6 +8,13 @@ fun main() {
             break
         }
     }
-
+    //continue
+    val jarak = 111..222
+    for (j in jarak){
+        if (j % 4 == 0){
+            continue
+        }
+        println("ini adalah jarak ke $j")
+    }
 
 }
