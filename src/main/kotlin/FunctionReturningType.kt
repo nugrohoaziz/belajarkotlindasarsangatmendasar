@@ -3,6 +3,9 @@ fun main() {
     val buku = stringlist(namaBuku = "Kisah Sukses Aziz", namaPengarang = "Aziz")
     println("total jumlah pembelian makanan hari selasa adalah $hasil")
     println("semua manusia dibumi selama 90 tahun membeli $buku")
+
+    val hasilPembagian = pembagian(8,2)
+    println(hasilPembagian)
 }
 
 
@@ -14,5 +17,14 @@ fun penjulahanUang (uangAziz: Int, uangHabib: Int, uangAdam: Int): Int{
 fun stringlist(namaPengarang: String, namaBuku: String):String{
     val aaraayBook = "$namaPengarang, $namaBuku"
     return aaraayBook
+}
+
+fun pembagian(a:Int, b:Int): Int{
+    if (b == 0){
+        return 0
+    }else{
+        val result = a / b
+        return result
+    }
 }
 
