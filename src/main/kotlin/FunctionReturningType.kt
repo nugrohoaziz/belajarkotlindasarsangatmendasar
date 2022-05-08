@@ -6,6 +6,7 @@ fun main() {
 
     val hasilPembagian = pembagian(8,2)
     println(hasilPembagian)
+    arraarara()
 }
 
 
@@ -26,5 +27,10 @@ fun pembagian(a:Int, b:Int): Int{
         val result = a / b
         return result
     }
+}
+//ini adalah default parameter
+fun arraarara(o:Int = 7, io:Int =9){
+    val hisil = o + io
+    println(hisil)
 }
 
