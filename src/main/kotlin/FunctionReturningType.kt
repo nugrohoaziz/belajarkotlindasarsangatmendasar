@@ -7,6 +7,11 @@ fun main() {
     val hasilPembagian = pembagian(8,2)
     println(hasilPembagian)
     arraarara()
+
+    val hasilKelilingPersegi = hitungBalok(2,2)
+    println("hasil keliling persegi $hasilKelilingPersegi")
+    val hasilKelilingPersegiPanjang = hitungBalok(4,2)
+    println("hasil keliling persegi panjang $hasilKelilingPersegiPanjang")
 }
 
 
@@ -32,5 +37,15 @@ fun pembagian(a:Int, b:Int): Int{
 fun arraarara(o:Int = 7, io:Int =9){
     val hisil = o + io
     println(hisil)
+}
+
+fun hitungBalok(p:Int, l:Int): Int{
+    if (p == l){
+        val perhitunganKelilingPersegi = 4 * p
+        return perhitunganKelilingPersegi
+    }else {
+        val perhitunganKelilingPersegiPanjang = 2 * (p + l)
+        return perhitunganKelilingPersegiPanjang
+    }
 }
 
